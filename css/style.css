@@ -1102,7 +1102,7 @@ button:hover {
 
 .brands-slider__title {
   padding: 16px 0;
-  background: #fff;
+  background: linear-gradient(90deg, #F8F8F8 1.39%, #FFF 100%);
   border-top: #D9FFF5 2px solid;
 }
 .brands-slider__title-text {
@@ -1118,8 +1118,7 @@ button:hover {
 }
 @media (min-width: 768px) {
   .brands-slider__swiper {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 24px 24px 0px;
   }
 }
 .brands-slider__swiper .swiper-pagination {
@@ -1205,13 +1204,13 @@ button:hover {
   .brands-slider__swiper-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 16px 24px;
   }
 }
 @media (min-width: 1120px) {
   .brands-slider__swiper-wrapper {
     grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
+    gap: 16px 32px;
   }
 }
 .brands-slider__swiper .brands-slider__slide--show {

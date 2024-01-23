@@ -2,7 +2,7 @@
 
   &__title {
     padding: 16px 0;
-    background: #fff;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFF 100%);
     border-top: #D9FFF5 2px solid;
 
     &-text {
@@ -19,8 +19,7 @@
     margin-left: 16px;
 
     @media (min-width: 768px) {
-      margin-left: 24px;
-      margin-right: 24px;
+      margin: 24px 24px 0px;
     }
 
     .swiper-pagination {
@@ -56,6 +55,7 @@
       z-index: 2;
       user-select: none;
       pointer-events: none;
+
       @media (min-width: 768px) {
         display: none;
       }
@@ -110,12 +110,12 @@
       @media (min-width: 768px) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
+        gap: 16px 24px;
       }
 
       @media (min-width: 1120px) {
         grid-template-columns: repeat(4, 1fr);
-        gap: 32px;
+        gap: 16px 32px;
       }
     }
 
